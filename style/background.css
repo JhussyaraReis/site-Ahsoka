@@ -1,0 +1,25 @@
+#background{
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+}
+
+#background iframe{
+    width: 100vw;
+    height: 56.25vw;
+    min-height: 100vh;
+    position: absolute;
+    top: -10%;
+    left: 0;
+}
+
+#background::after{
+    content: '';
+    width: inherit; /* Inherit significa simplesmente que o estilo será herdado do elemento pai */
+    height: inherit;
+    position: fixed;
+    inset: 0;
+    background: linear-gradient(90deg, rgb(0, 0, 0), rgba(0, 0, 0, 0.601) , rgb(0, 0, 0));
+} 
