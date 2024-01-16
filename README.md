@@ -1,4 +1,4 @@
-# site-Ahsoka
+# Site da série Ahsoka
  Esse home foi desenvolvido para exercitar as linguagens **HTML** e **CSS**.
 	
  Biblioteca de animação usada : https://michalsnik.github.io/aos/
